@@ -29,4 +29,4 @@ app.use(require('./routes/post'))
 
 
 
-app.listen(3000,()=>{console.log('Running on 3000')})
+app.listen(PORT,()=>{console.log('Running on 5000')})
