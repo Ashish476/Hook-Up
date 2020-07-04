@@ -1,15 +1,11 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
-export const Signup = () => {
+export const SignIn = () => {
   return (
     <div className="mycard">
       <div className="card auth-card">
         <h2>Instagram</h2>
-        <input
-          type="text"
-          placeholder="Enter your name"
-        />
         <input
           className="input-field"
           type="email"
@@ -25,9 +21,9 @@ export const Signup = () => {
           type="submit"
           name="action"
         >
-          SignUp
+          Login
         </button>
-        <h5><Link to="/signin">Already have a account?</Link></h5>
+        <h5><Link to="/signup">Don't have a account?</Link></h5>
       </div>
     </div>
   );

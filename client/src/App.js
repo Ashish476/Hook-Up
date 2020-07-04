@@ -4,7 +4,7 @@ import "./App.css";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Home } from "./components/screens/Home";
 import { Profile } from "./components/screens/Profile";
-import { Login } from "./components/screens/Login";
+import { SignIn } from "./components/screens/SignIn";
 import { Signup } from "./components/screens/Signup";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Home />
       </Route>
       <Route path="/signin">
-        <Login />
+        <SignIn />
       </Route>
       <Route path="/signup">
         <Signup />
