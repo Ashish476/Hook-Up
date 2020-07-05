@@ -8,7 +8,8 @@ a {
   color: black !important;
 }
 
-.brand-logo,h2 {
+.brand-logo,
+h2 {
   font-family: "Grand Hotel", cursive;
 }
 
@@ -34,9 +35,14 @@ a {
   padding-bottom: 40px;
 }
 
-
-.home-card{
+.home-card {
   max-width: 500px;
   height: max-content;
   margin: 26px auto;
+}
+
+#toast-container {
+  top: 30px !important;
+  right: 20px !important;
+  left: auto !important;
 }
